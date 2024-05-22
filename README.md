@@ -1,5 +1,18 @@
-# social-influence
+# Social Influence and its Translation to the Legislative Arena
 code for social influence and its translation to the legislative arena
+
+## Description
+Code for chapter 1 of my dissertation titled, Social Influence and its Translation to the Legislative Arena. 
+Contains code for scraping tweets from Twitter using the academictwitteR package Code/Scrape/scrape_twitter.R. 
+
+Also contains code to take that ouput and create the directed network of legislator interactions on Twittter for the 115th House and Senate and the 116th House and Senate, Scrape_Twitter_data-115H.ipynb, Scrape_Twitter_data-115s.ipynb, Scrape_Congress_data.ipynb, Scrape_Twitter_data-116S.ipynb respectively. 
+
+Then convert these networks into adjacency matrices which represent tweets and mentions between legsialtors, ADJ_Fowler_Twitter.ipynb. 
+
+The Connectedness folder uses these matrices to caluclate Connectedness wihtin each contextual enviornment for each chamber and session of Congress. 
+The output of this procedure is availible in  ** folder. 
+
+## Resources 
 
 Bill data: https://www.govinfo.gov/bulkdata/BILLS/116. 
 
